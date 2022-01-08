@@ -1,0 +1,119 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+h2 {
+  font-size: 82px;
+  color:#fff;
+  padding-top: 180px;
+  padding-left: 50px;
+}
+
+h4 {
+  font-size: 64px;
+  color:#fff;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+
+
+
+
+/*----------------------------------------------
+  Header
+-----------------------------------------------*/
+
+#header{
+  padding: 20px 80px;
+  top: 0;
+  left: 0;
+  background-color: #E3E6F3;
+}
+
+#navbar{
+  display: flex;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+#navbar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding-right:5px;
+  margin-left: 30px;
+}
+
+
+
+/*----------------------------------------------
+  Main
+-----------------------------------------------*/
+
+#main{
+  background-image: url("img/keyboard.jpg");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;   /* 사진이 여러개 나오지 않게 */
+  background-position: top 25% center; /* 사진 조정 */
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+/*----------------------------------------------
+  About
+-----------------------------------------------*/
+
+
+#about .about-box p{
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #000;
+}
+
+#about i {
+  font-size: 60px;
+  padding-left:30px;
+  padding-right:15px;
+}
+
+.About_title {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 900;
+
+}
+
+
+#i_name{
+
+}
+
+
+
+
+
+
+.YSH_Photo {
+  width: 600px;
+  height: 600px;
+  float: right;
+}
