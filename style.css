@@ -49,6 +49,8 @@ h4 {
   left: 0;
   background-color: rgb(52, 50, 50);
   border-bottom: solid 3px #fff;
+  position: fixed;
+  width:100%;
 }
 
 #navbar{
@@ -80,7 +82,8 @@ h4 {
 
 #main{
   background-image: url("img/keyboard.jpg");
-  height: 92vh;
+  top: 20px;
+  height: 100vh;
   width: 89.45%; /* 최댓값 */
   background-size: cover;   /* 사진이 여러개 나오지 않게 */
   background-position: top 25% center; /* 사진 조정 */
@@ -201,15 +204,34 @@ h4 {
   text-align: center;
 }
 
+#Achieving :hover{
+  box-shadow: royalblue;
+}
 
 .Tistory {
   width:400px;
   height: 200px;
-  margin-right:150px;
 }
 
 .github {
-  width:430px;
-  height: 200px;
+  width:300px;
+  height: 150px;
+  margin: 25px 100px 25px 100px; 
 }
 
+.Achieving_box {
+  display: inline-block;
+  border:0.4rem solid rgb(52, 50, 50);
+  border-radius: 13px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+.Achieving_box li {
+  font-family: 'Do Hyeon', sans-serif;
+  margin: 5px 20px 15px 20px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+}
