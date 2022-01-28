@@ -2,17 +2,22 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio_YSH</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawsome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>  <!-- typing animation script -->
+</head>
   </head>
   <body>
       <!-- Header -->
 
       <section id="header">
-        <div>
+        <div class="max-width">
+          <div class="logo"><a>SooHyun's <span>Portfolio.</span></a></div>
           <ul id="navbar">
-            <li><a class="main-title">SooHyun's Portfolio</a></li>
             <li><a href="#">About</a></li>
             <li><a href="https://bmy1320.tistory.com/" target="_blank">Blog</a></li>
             <li><a href="https://github.com/soohyun-dev" target="_blank">Github</a></li>
@@ -25,61 +30,82 @@
 
       <section id="main">
         <h2>안녕하세요</h2>
-        <h4>Front-End 지망생 윤수현입니다.</h2>
+        <h4><span class="typing"></span></h4>
+        <h4>윤수현입니다.</h4>
       </section>
 
       <!-- About -->
 
-      <section>
+      <section class="aboutMe">
         <div class="About_title">About Me</div>
+          <div class="max-width">
+            <div class="about-content">
+                <div class="column left">
+                    <img src="img/profile.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">저는 프론트엔드 개발자 지망생입니다.</div>
+                    <p>This is not the whole story, though. In fact, the Austrian regulator also considers that additional measures taken to protect the data, such as data encryption at rest in Google's datacenters, are not effective since they do not eliminate the monitoring and access possibilities by US intelligence services.This is not the whole story, though. In fact, the Austrian regulator also considers that additional measures taken to protect the data, such as data encryption at rest in Google's datacenters, are not effective since they do not eliminate the monitoring and access possibilities by US intelligence services.This is not the whole story, though. In fact, the Austrian regulator also considers that additional measures taken to protect the data, such as data encryption at rest in Google's datacenters, are not effective since they do not eliminate the monitoring and access possibilities by US intelligence services.</p>
+                </div>
+            </div>
+            <div class="max-width">
+              <div class="about-content">
+                  <div class="column left">
+                      <img src="img/baekjoon.png" alt="">
+                  </div>
+                  <div class="column right">
+                      <div class="text">저는 <span class="typing2"></span></div>
+                      <p>This is not the whole story, though. In fact, the Austrian regulator also considers that additional measures taken to protect the data, such as data encryption at rest in Google's datacenters, are not effective since they do not eliminate the monitoring and access possibilities by US intelligence services.This is not the whole story, though. In fact, the Austrian regulator also considers that additional measures taken to protect the data, such as data encryption at rest in Google's datacenters, are not effective since they do not eliminate the monitoring and access possibilities by US intelligence services.This is not the whole story, though. In fact, the Austrian regulator also considers that additional measures taken to protect the data, such as data encryption at rest in Google's datacenters, are not effective since they do not eliminate the monitoring and access possibilities by US intelligence services.</p>
+                  </div>
+              </div>
+          </div>
       </section>
-      <!-- Profile Picture-->
-      <aside class="profile-photo">
-        <img class="YSH_Photo" src="img/YSH.jpg">
-      </aside>
       
       <!-- About Box -->
       <section id="about">
         <!-- 이름 , 생년월일 , 학력, 거주지 , 취미-->
         <!-- 첫째줄 -->
-        <div class="about-box">
-          <i class="far fa-address-card"></i> <!--이름-->
-          <h5>이름</h5>
-          <p>윤수현</p>
-        </div>
-        <div class="about-box">
-          <i class="far fa-birthday-cake"></i> <!--생년월일-->
-          <h5>생년월일</h5>
-          <p>1995.12.28</p> 
-        </div>
-        <div class="about-box">
-          <i class="fas fa-graduation-cap" style="margin-top:45px;"></i> <!--학력-->
-          <h5>학력</h5>
-          <p>가천대학교</p>
-          <p>컴퓨터공학과</p>
-        </div>
-        <div class="about-box">
-          <i class="fas fa-home"></i> <!--거주지-->
-          <h5>거주지</h5>
-          <p>고양시 일산</p>
-        </div>
+          <div class="about-box" id="box1">
+            <i class="far fa-address-card"></i> <!--이름-->
+            <h5>이름</h5>
+            <p>윤수현</p>
+          </div>
+          <div class="about-box">
+            <i class="far fa-birthday-cake"></i> <!--생년월일-->
+            <h5>생년월일</h5>
+            <p>1995.12.28</p> 
+          </div>
+          <div class="about-box">
+            <i class="fas fa-graduation-cap" style="margin-top:45px;"></i> <!--학력-->
+            <h5>학력</h5>
+            <p>가천대학교</p>
+            <p>컴퓨터공학과</p>
+          </div>
+          <div class="about-box">
+            <i class="fas fa-home"></i> <!--거주지-->
+            <h5>거주지</h5>
+            <p>고양시 일산</p>
+          </div>
+
 
          <!-- 둘째줄 -->
-        <div class="about-box2-1" >
-          <i class="far fa-bookmark"></i> <!--취미-->
-          <h5>취미</h5>
-          <p>독서, 음악듣기</p>
-        </div>
-        <div class="about-box2-2" >
-          <i class="fas fa-phone-alt"></i> <!--전화-->
-          <h5>전화</h5>
-          <p style="margin-left: 17px;">010-3701-0370</p>
-        </div>
-        <div class="about-box2-3" >
-          <i class="far fa-envelope"></i> <!--이메일-->
-          <h5>이메일</h5>
-          <p style="margin-left: 17px;">bmy1320@gmail.com</p>
-        </div>
+    
+          <div class="about-box" id="box2" >
+            <i class="far fa-bookmark"></i> <!--취미-->
+            <h5>취미</h5>
+            <p>독서, 음악듣기</p>
+          </div>
+          <div class="about-box" >
+            <i class="fas fa-phone-alt"></i> <!--전화-->
+            <h5>전화</h5>
+            <p style="margin-left: 17px;">010-3701-0370</p>
+          </div>
+          <div class="about-box" >
+            <i class="far fa-envelope"></i> <!--이메일-->
+            <h5>이메일</h5>
+            <p style="margin-left: 17px;">bmy1320@gmail.com</p>
+          </div>
+
       </section>
       
       <!-- Achieving -->
@@ -92,7 +118,7 @@
         <div class="Achieving_box">
           <a href="https://github.com/soohyun-dev" target="_blank"><img src="img/github.png" class="github"></a>
           <li>저의 깃허브 사이트입니다.</li>
-          <li>프로젝트와 코딩테스트 코드들을 올려놓았습니다.</li>
+          <li>프로젝트와 코딩테스트 코드들을 올려 놓았습니다.</li>
         </div>
         
       </section>
@@ -100,12 +126,14 @@
 
 
       <section>
-        <div class="About_title">Skill</div>
+        <div class="About_title">Project</div>
       </section>
 
       <section id="skill">
         <div class="skill-title">
         </div>
       </section>
+
+      <script src="script.js"></script>
   </body>
 </html>
