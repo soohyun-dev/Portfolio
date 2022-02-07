@@ -21,7 +21,7 @@
             <li><a href="#">About</a></li>
             <li><a href="https://bmy1320.tistory.com/" target="_blank">Blog</a></li>
             <li><a href="https://github.com/soohyun-dev" target="_blank">Github</a></li>
-            <li><a href="#">Project</a></li>
+            <li><a onclick="downpage()" class="box" cursor:"pointer">Project</a></li>
           </ul>
         </div>
       </section>
@@ -31,7 +31,7 @@
       <section id="main">
         <h2>안녕하세요</h2>
         <h4><span class="typing"></span></h4>
-        <h4>윤수현입니다.</h4>
+        <h3>윤수현 <a>입니다.</a></h3>
       </section>
 
       <!-- About -->
@@ -41,7 +41,7 @@
           <div class="max-width">
             <div class="about-content">
                 <div class="column left">
-                    <img src="img/profile.jpg" alt="">
+                    <img src="img/YSH.jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">저는 프론트엔드 개발자 지망생입니다.</div>
@@ -59,6 +59,20 @@
                   </div>
               </div>
           </div>
+      </section>
+
+      <section id="Achieving">
+        <div class="Achieving_box">
+          <a href="https://bmy1320.tistory.com/" target="_blank"><img src="img/Tistory.jpg" class="Tistory"></a>
+          <li>공부한 내용을 정리하는 블로그입니다.</li>
+          <li>코딩테스트, 프로그래밍공부, 영어공부 등을 주로 정리합니다.</li>
+        </div>
+        <div class="Achieving_box">
+          <a href="https://github.com/soohyun-dev" target="_blank"><img src="img/github.png" class="github"></a>
+          <li>저의 깃허브 사이트입니다.</li>
+          <li>프로젝트와 코딩테스트 코드들을 올려 놓았습니다.</li>
+        </div>
+        
       </section>
       
       <!-- About Box -->
@@ -109,7 +123,7 @@
       </section>
       
       <!-- Achieving -->
-      <section id="Achieving">
+      <!-- <section id="Achieving">
         <div class="Achieving_box">
           <a href="https://bmy1320.tistory.com/" target="_blank"><img src="img/Tistory.jpg" class="Tistory"></a>
           <li>공부한 내용을 정리하는 블로그입니다.</li>
@@ -121,14 +135,83 @@
           <li>프로젝트와 코딩테스트 코드들을 올려 놓았습니다.</li>
         </div>
         
+      </section> -->
+
+
+
+      <section id="Project">
+        <div class="project_container">
+            <h1>Project</h1>
+            <div class="Project">
+                <div class="project-img">
+                    <img src="img/project01.png">
+                </div>
+                <div class="project-text">
+                    <p class="project-kinds">개인 프로젝트, 정적 웹페이지</p>
+                    <div class="project-title">밀리터리 사이트</div>
+                    <div class="project-content">
+                        <p>밀리터리 정보들을 모와둔 사이트입니다.</p>
+                        <p>- JavaScript를 통해 Gallery 슬라이드를 구현했습니다.</p>
+                    </div>  
+                    <div class="project-code">
+                        <a href="https://soohyun-dev.github.io/SooHyun-Military-World/" target='_blank'>사이트</a>
+                        <a href="https://github.com/soohyun-dev/SooHyun-Military-World" target='_blank'>Source Code</a>
+                    </div>
+                    <div class="project-skill">
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white" />
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white" />
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="Project">
+                <div class="project-img">
+                    <img src="img/project02.png">
+                </div>
+                <div class="project-text">
+                    <p class="project-kinds">개인 프로젝트, 정적 웹페이지</p>
+                    <div class="project-title">포트폴리오 사이트</div>
+                    <div class="project-content">
+                        <p>저의 포트폴리오 사이트입니다.</p>
+                        <p>- JavaScript를 통해 navbar, 타이핑 기능을 구현했습니다.</p>
+                    </div>  
+                    <div class="project-code">
+                        <a href="https://github.com/soohyun-dev/Portfolio" target='_blank'>Source Code</a>
+                    </div>
+                    <div class="project-skill">
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white" />
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white" />
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="Project">
+                <div class="project-img">
+                    <img src="img/project03.png">
+                </div>
+                <div class="project-text">
+                    <p class="project-kinds">개인 프로젝트</p>
+                    <div class="project-title">Snowing Project</div>
+                    <div class="project-content">
+                        <p>화면에 눈이 내리는 듯한 효과를 주는 사이트입니다.</p>
+                        <p>- JavaScript와 CSS를 통해 눈이 내리는 듯한 효과를 구현했습니다.</p>
+                    </div>  
+                    <div class="project-code">
+                        <a href="https://soohyun-dev.github.io/snowing/main.html" target='_blank'>사이트</a>
+                        <a href="https://github.com/soohyun-dev/snowing/tree/main" target='_blank'>Source Code</a>
+                    </div>
+                    <div class="project-skill">
+                        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white" />
+                        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white" />
+                        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white" />
+                    </div>
+                </div>
+            </div>
+        </div>
       </section>
-
-
-
-      <section>
-        <div class="About_title">Project</div>
-      </section>
-
+      <button onclick="uppage()"><p class="up-btn">🔼</p></button>
       <section id="skill">
         <div class="skill-title">
         </div>

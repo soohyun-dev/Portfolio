@@ -20,14 +20,26 @@ body {
 }
 
 h2 {
-  font-size: 62px;
+  font-size: 46px;
   color:#fff;
   padding-top: 300px;
-  padding-left: 50px;
+  padding-left: 60px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 52px;
+  color:#fff;
+  margin-top: 10px;
+  padding-left: 60px;
+}
+
+h3 a {
+  font-weight: 400;
 }
 
 h4 {
-  font-size: 42px;
+  font-size: 62px;
   color:#fff;
   margin-top: 10px;
   padding-left: 60px;
@@ -53,6 +65,7 @@ h4 {
 }
 
 .logo span {
+  font-size: 62px;
   color:rgb(255, 0, 0);
   transition: all 0.3s ease;
 }
@@ -70,6 +83,7 @@ h4 {
 #header.sticky {
   padding: 20px 20px;
   background: rgb(52, 50, 50); 
+  border-bottom: 1px solid #fff;
 }
 
 #header.sticky .logo span {
@@ -86,6 +100,7 @@ h4 {
 #navbar li {
   list-style: none;
   display: inline-block;
+  cursor: pointer;
 }
 
 #navbar li a{
@@ -138,7 +153,7 @@ h4 {
   margin-top: 100px;
   margin-bottom: 40px;
   text-align: center;
-  font-size: 50px;
+  font-size: 0px;
   font-weight: 900;
   width: 100%;
   color: #fff;
@@ -371,9 +386,112 @@ h4 {
 /*----------------------------------------------
   Project
 -----------------------------------------------*/
+#Project{
+    padding: 50px 50px 50px 50px;
+}
 
 
+.project_container{
+    max-width: 1400px;
+    margin: auto;
+    background-color: #e6ffff;
+}
 
+.project_container h1 {
+    text-align: center;
+    font-size: 48px;
+    margin: 50px 0 10px 0;
+    padding-top:30px;
+}
+
+.Project{
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.Project-title{
+    text-align: center;
+    font-size: 62px;
+}
+
+.project-img {
+    width:55%;
+}
+
+.project-img img{
+    width: 600px;
+    height:300px;
+    float: right;
+    margin-right: 50px;
+}
+
+.project-text{
+    width:45%;
+    height: 100%;
+    display: block;
+    text-align: left;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.project-kinds {
+    color:blue;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.project-title{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.project-content{
+    padding: 30px 0;
+    width:100%;
+    display: block;
+    font-size: 20px;
+}
+
+.project-code{
+    margin:20px 0 50px 0;
+}
+
+.project-code a{
+    width:20vh;
+    font-size:20px;
+    text-decoration: none;
+    padding: 4px 18px 2px 18px;
+    border: 2px solid #82b3c9;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    background-color: #fff;
+}
+
+.project-code a:hover{
+    background-color: #b3e5fc;
+    color:black;
+}
+
+.project-skill{
+    margin-top:20px;
+}
+
+
+button{
+    float: right;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+}
 
 /*----------------------------------------------
   Responsive
@@ -415,7 +533,7 @@ h4 {
   }
 }
 
-@media (max-width:850px) {
+@media (max-width:9px) {
   h2 {
     font-size: 44px;
   }
