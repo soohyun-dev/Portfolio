@@ -29,6 +29,6 @@ function uppage(){
   }
 
 function downpage(){
-document.documentElement.scrollTop = 3180;
+document.documentElement.scrollTop = 2775;
 }
 
