@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     // typing animation script
     var typed = new Typed(".typing", {
-        strings: ["열정이 넘치는", "끈기가 있는", "성장하고 싶어하는", "Front-End 지망생"],
+        strings: ["열정이 넘치는", "끈기가 있는", "성장하고 싶어하는", "Front-end 지망생"],
         typeSpeed:50,
         backSpped:60,
         loop: true
